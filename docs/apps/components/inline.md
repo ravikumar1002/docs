@@ -72,12 +72,6 @@ The **Inline** layout approach allows for a more compact and organized form layo
         this.show(fields)
         ```
 
-!!! info Add multiple classes
-    Use the following syntax to add multiple classes to a component:
-    ```js
-    this.addClassName('componentID', 'class1', 'class2')
-    ```
-
 ## Config
 
 | **Name**|**Description**|**Icon**|
