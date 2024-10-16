@@ -2,6 +2,11 @@ window.$crisp=[];
 window.CRISP_WEBSITE_ID="fdc64bee-6a11-43fc-b928-6829623c9eaa";
 (function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
 
+window.addEventListener("popstate", (event) => {
+    window.$crisp=[];
+    window.CRISP_WEBSITE_ID="fdc64bee-6a11-43fc-b928-6829623c9eaa";
+    (function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();  
+})
 /*
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
